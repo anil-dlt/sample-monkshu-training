@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html{
+    background:skyblue;
+}
+.clock{
+    border:20px solid white;
+    width:30rem;
+    height:30rem;border-radius:50%;
+    margin:50px auto;position:relative;
+}
+.hand{
+    width:50%;
+    height:6px;
+    background:black;position:absolute;top:50%;
+    transform:rotate(90deg);
+    transform-origin:100%;
+    transition:all 0.05sec;
+    transition-timing-function: cubic-bezier(0.2, 2.7, 0.7, 1);
+}
